@@ -19,12 +19,12 @@ namespace Encapsulation
         /// </summary>
         /// <param name="per">Person object to set age</param>
         /// <param name="age">age with integer value</param>
-        private void SetAge(Person per, int age)
+        public void SetAge(Person per, int age)
         {
             per.Age = age;
         }
 
-        private int GetAge(Person per)
+        public int GetAge(Person per)
         {
             return per.Age;
         }
@@ -34,7 +34,7 @@ namespace Encapsulation
         /// </summary>
         /// <param name="per">Person object to set age</param>
         /// <param name="fname">first name with string value</param>
-        private void SetFName(Person per, string fname)
+        public void SetFName(Person per, string fname)
         {
             per.FName = fname;
         }
@@ -44,12 +44,12 @@ namespace Encapsulation
         /// </summary>
         /// <param name="per">Person object to set age</param>
         /// <param name="lname">last name with string value</param>
-        private void SetLName(Person per, string lname)
+        public void SetLName(Person per, string lname)
         {
             per.LName = lname;
         }
 
-        private string GetName(Person per)
+        public string GetName(Person per)
         {
             return per.FName + " " + per.LName;
         }
@@ -59,12 +59,12 @@ namespace Encapsulation
         /// </summary>
         /// <param name="per">Person object to set age</param>
         /// <param name="fname">weight with double value eg 75.9</param>
-        private void SetWeight(Person per, double weight)
+        public void SetWeight(Person per, double weight)
         {
             per.Weight = weight;
         }
 
-        private double GetWeight(Person per)
+        public double GetWeight(Person per)
         {
             return per.Weight;
         }
@@ -74,12 +74,12 @@ namespace Encapsulation
         /// </summary>
         /// <param name="per">Person object to set age</param>
         /// <param name="fname">height with double value eg. 165.8</param>
-        private void SetHeight(Person per, double height)
+        public void SetHeight(Person per, double height)
         {
             per.Height = height;
         }
 
-        private double GetHeight(Person per)
+        public double GetHeight(Person per)
         {
             return per.Height;
         }
